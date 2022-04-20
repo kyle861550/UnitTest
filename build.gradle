@@ -17,6 +17,9 @@ dependencies {
 
 //    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // 自動創建 Mock 物件
+    testImplementation 'org.mockito:mockito-core:4.0.0'
 }
 
 test {

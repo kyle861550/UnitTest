@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StudentMockTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-20T07:43:49" hostname="NF-20HW-NB00027" time="0.021">
+<testsuite name="StudentMockTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-20T08:40:50" hostname="NF-20HW-NB00027" time="0.524">
   <properties/>
-  <testcase name="say()" classname="StudentMockTest" time="0.021"/>
+  <testcase name="say_mockito_2()" classname="StudentMockTest" time="0.524"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

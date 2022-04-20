@@ -3,6 +3,8 @@ import org.junit.jupiter.api.Test
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
+import org.mockito.Mockito
+import org.mockito.Mockito.mock
 
 class StubBoy : IInfo {
 
@@ -26,7 +28,7 @@ internal class StudentTest {
 
     @BeforeEach
     fun setup() {
-        student = Student();
+        student = Student()
     }
 
     @Test
@@ -37,6 +39,22 @@ internal class StudentTest {
     @Test
     fun sayGirl() {
         Assert.assertEquals("Girl", student.say(StubGirl()))
+    }
+
+    @Test
+    fun sayBoy_Mockito() {
+        val mock = mock(IInfo::class.java)
+        Mockito.`when`(mock.isBoy()).thenReturn(true)
+
+        Assert.assertEquals("Boy", student.say(mock))
+    }
+
+    @Test
+    fun sayGirl_Mockito() {
+        val mock = mock(IInfo::class.java)
+        Mockito.`when`(mock.isBoy()).thenReturn(false)
+
+        Assert.assertEquals("Girl", student.say(mock))
     }
 
 }
