@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MathTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-04-20T03:21:34" hostname="NF-20HW-NB00027" time="0.036">
+  <properties/>
+  <testcase name="addTest()" classname="MathTest" time="0.03"/>
+  <testcase name="saveAddTest()" classname="MathTest" time="0.001"/>
+  <testcase name="testCoverage_1()" classname="MathTest" time="0.001"/>
+  <testcase name="testCoverage_2()" classname="MathTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
