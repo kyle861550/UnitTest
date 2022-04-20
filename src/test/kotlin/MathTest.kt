@@ -14,11 +14,11 @@ class MathTest {
     fun saveAddTest() {
         val expected = 3
 
-        val meth = Math()
-        meth.saveAdd(1, 2)
+        val math = Math()
+        math.saveAdd(1, 2)
 
 //        Assert.assertEquals(expected, -1)     // 先寫錯誤測試
-        Assert.assertEquals(expected, meth.addResult)
+        Assert.assertEquals(expected, math.addResult)
     }
 
     @Test
