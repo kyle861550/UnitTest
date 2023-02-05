@@ -20,6 +20,8 @@ dependencies {
 
     // 自動創建 Mock 物件
     testImplementation 'org.mockito:mockito-core:4.0.0'
+
+    testImplementation 'io.mockk:mockk:1.9.3'
 }
 
 test {

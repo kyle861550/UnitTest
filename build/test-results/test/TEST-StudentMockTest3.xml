@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StudentMockTest3" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-20T09:01:13" hostname="NF-20HW-NB00027" time="98.944">
-  <properties/>
-  <testcase name="say_mockito_call_method_times()" classname="StudentMockTest3" time="98.944"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
